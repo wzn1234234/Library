@@ -1,0 +1,101 @@
+<div class="form-floating mb-3">
+  <input name="Title" type="text" class="form-control" placeholder="Title" [(ngModel)]="bookFilterModel.Title" required>
+  <label name="Title">Title</label>
+</div>
+<div class="form-floating mb-3">
+  <input name="Author" type="text" class="form-control" placeholder="Author" [(ngModel)]="bookFilterModel.Author" required>
+  <label name="Author">Author</label>
+</div>
+<div class="mb-3">
+  <input type="radio" name="Availability" [(ngModel)]="bookFilterModel.Availability" [value]="0">
+  <label>Unavailable Books</label>
+  <div class="col-3 text-start"></div>
+  <input type="radio" name="Availability" [(ngModel)]="bookFilterModel.Availability" [value]="1">
+  <label>Available Books</label>
+  <div class="col-3 text-start"></div>
+  <input type="radio" name="Availability" [(ngModel)]="bookFilterModel.Availability" [value]="2">
+  <label>All Books</label>
+</div>
+<div class="mb-3">
+  <input type="radio" name="SortData" [(ngModel)]="bookFilterModel.SortData" value="Title">
+  <label>Sort By Title</label>
+  <div class="col-3 text-start"></div>
+  <input type="radio" name="SortData" [(ngModel)]="bookFilterModel.SortData" value="Author">
+  <label>Sort By Order</label>
+  <div class="col-3 text-start"></div>
+  <input type="radio" name="SortData" [(ngModel)]="bookFilterModel.SortData" value="Availability">
+  <label>Sort By Availability</label>
+</div>
+<div class="mb-3">
+  <input type="radio" name="Random" [(ngModel)]="bookFilterModel.Random" [value]="true">
+  <label>Show Featured Books</label>
+  <div class="col-3 text-start"></div>
+  <input type="radio" name="Random" [(ngModel)]="bookFilterModel.Random" [value]="false">
+  <label>Show All Books List</label>
+</div>
+<div class="mb-3">
+  <button type="button" class="btn btn-info" (click)="search()">
+    Search
+  </button>
+</div>
+<div *ngIf="isLibrarian" class="mb-3">
+  <button type="button" class="btn btn-info" (click)="addBook()">
+    Add Book
+  </button>
+</div>
+
+<div *ngIf="bookFilterModel.Random" class="col-12 m-0 overflow-auto" style="height:70vh;">
+  <div *ngIf="featuredBooks" class="row d-flex m-0 w-100">
+    <div *ngFor="let book of featuredBooks" class="photo-index-card col-12 col-md-6 col-lg-4" style="border:solid;">
+      Title: {{book.title}}
+      <div class="card-body">
+        <h5 class="card-title text-truncate">Title: {{ book.title }}</h5>
+        <p class="card-text m-0 text-truncate">Author: {{ book.author }}</p>
+        <p class="card-text m-0 text-truncate">Description: {{ book.description }}</p>
+        <p class="card-text m-0 text-truncate">AverageRate: {{ book.averageRate }}</p>
+        <p class="card-text m-0 text-truncate">Availability: {{ book.availability }}</p>
+        <img src="/images/{{ book.coverImagePath }}" alt="{{ book.title }}">
+      </div>
+    </div>
+  </div>
+</div>
+<div *ngIf="!bookFilterModel.Random" class="col-12 m-0 overflow-auto" style="height:70vh;">
+  <table *ngIf="featuredBooks">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Description</th>
+        <th>AverageRate</th>
+        <th>Availability</th>
+        <th>Details</th>
+        <th>Check Out</th>
+        <th *ngIf="isLibrarian">Return Book</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let book of featuredBooks">
+        <td>{{ book.title }}</td>
+        <td>{{ book.author }}</td>
+        <td>{{ book.description }}</td>
+        <td>{{ book.averageRate }}</td>
+        <td>{{ book.availability }}</td>
+        <td>
+          <button type="button" class="btn btn-info" (click)="getBook(this)" value="{{ book.id }}">
+            Details
+          </button>
+        </td>
+        <td>
+          <button *ngIf="book.availability" type="button" class="btn btn-info" (click)="checkoutbook(this)" value="{{ book.id }}">
+            Check Out
+          </button>
+        </td>
+        <td *ngIf="isLibrarian">
+          <button *ngIf="!book.availability" type="button" class="btn btn-info" (click)="returnbook(this)" value="{{ book.id }}">
+            Return
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\wwwroot\\images\\1.png",
+      "PackagePath": "staticwebassets\\images\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\wwwroot\\images\\10.png",
+      "PackagePath": "staticwebassets\\images\\10.png"
+    },
+    {
+      "Id": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\wwwroot\\images\\2.png",
+      "PackagePath": "staticwebassets\\images\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\wwwroot\\images\\3.png",
+      "PackagePath": "staticwebassets\\images\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\wwwroot\\images\\4.png",
+      "PackagePath": "staticwebassets\\images\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\wwwroot\\images\\5.png",
+      "PackagePath": "staticwebassets\\images\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\wwwroot\\images\\6.png",
+      "PackagePath": "staticwebassets\\images\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\wwwroot\\images\\7.png",
+      "PackagePath": "staticwebassets\\images\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\wwwroot\\images\\8.png",
+      "PackagePath": "staticwebassets\\images\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\wwwroot\\images\\9.png",
+      "PackagePath": "staticwebassets\\images\\9.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Library.Server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Library.Server.props",
+      "PackagePath": "build\\Library.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Library.Server.props",
+      "PackagePath": "buildMultiTargeting\\Library.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Library.Server.props",
+      "PackagePath": "buildTransitive\\Library.Server.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

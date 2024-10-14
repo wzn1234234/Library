@@ -1,0 +1,925 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.client\\src\\app\\core\\feature\\booklist\\booklist.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\src\\app\\core\\feature\\booklist\\booklist.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.client\\src\\app\\core\\feature\\booklist\\booklist.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\src\\app\\core\\feature\\booklist\\booklist.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.client\\src\\app\\core\\feature\\bookdetail\\bookdetail.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\src\\app\\core\\feature\\bookdetail\\bookdetail.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.client\\src\\app\\core\\feature\\bookdetail\\bookdetail.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\src\\app\\core\\feature\\bookdetail\\bookdetail.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\viewmodels\\bookviewmodels\\featuredbookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\viewmodels\\bookviewmodels\\featuredbookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\viewmodels\\bookviewmodels\\bookfiltermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\viewmodels\\bookviewmodels\\bookfiltermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.client\\src\\app\\core\\feature\\booklist\\booklist.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\src\\app\\core\\feature\\booklist\\booklist.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\services\\entityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\services\\entityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\services\\userbookcheckoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\services\\userbookcheckoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.client\\src\\app\\core\\auth\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\src\\app\\core\\auth\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.client\\src\\app\\core\\auth\\auth.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\src\\app\\core\\auth\\auth.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.client\\src\\app\\core\\auth\\auth.interceptor.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\src\\app\\core\\auth\\auth.interceptor.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.client\\src\\app\\app.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\src\\app\\app.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.client\\src\\app\\core\\auth\\register\\register.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\src\\app\\core\\auth\\register\\register.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.client\\src\\app\\core\\auth\\register\\register.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\src\\app\\core\\auth\\register\\register.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.client\\src\\proxy.conf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\src\\proxy.conf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\dbcontexts\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\dbcontexts\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.client\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.client\\src\\app\\core\\auth\\auth.guard.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\src\\app\\core\\auth\\auth.guard.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.client\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.client\\src\\app\\core\\auth\\login\\login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\src\\app\\core\\auth\\login\\login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\viewmodels\\bookviewmodels\\bookdetailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\viewmodels\\bookviewmodels\\bookdetailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\viewmodels\\bookviewmodels\\bookreviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\viewmodels\\bookviewmodels\\bookreviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\viewmodels\\bookviewmodels\\bookreviewdetailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\viewmodels\\bookviewmodels\\bookreviewdetailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.client\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.client\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\filters\\authenticationrequirementsoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\filters\\authenticationrequirementsoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\models\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\models\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\models\\identity\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\models\\identity\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\interfaces\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\interfaces\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\interfaces\\services\\ientityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\interfaces\\services\\ientityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\models\\entity\\userbookreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\models\\entity\\userbookreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\models\\entity\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\models\\entity\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\models\\entity\\userbookcheckout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\models\\entity\\userbookcheckout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\models\\entity\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\models\\entity\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\models\\identity\\appuserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\models\\identity\\appuserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\dbcontexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\dbcontexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\dbcontexts\\mapping\\userbookcheckoutmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\dbcontexts\\mapping\\userbookcheckoutmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\dbcontexts\\mapping\\bookmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\dbcontexts\\mapping\\bookmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\repositories\\entityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\repositories\\entityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\services\\userbookreviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\services\\userbookreviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\interfaces\\services\\iuserbookreviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\interfaces\\services\\iuserbookreviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\interfaces\\services\\iuserbookcheckoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\interfaces\\services\\iuserbookcheckoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\interfaces\\repositories\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\interfaces\\repositories\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\onedrive\\documents\\github\\library\\library\\library.server\\dbcontexts\\mapping\\userbookreviewmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\dbcontexts\\mapping\\userbookreviewmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Library.Server\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Library.Server\\Controllers\\BookController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwIcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T21:03:59.76Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "Library.Server\\Services\\BookService.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Services\\BookService.cs",
+              "RelativeToolTip": "Library.Server\\Services\\BookService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAmwDYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T19:29:02.601Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Library.Server\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Library.Server\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wDAAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T20:17:26.533Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "auth.service.ts",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\core\\auth\\auth.service.ts",
+              "RelativeDocumentMoniker": "library.client\\src\\app\\core\\auth\\auth.service.ts",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\core\\auth\\auth.service.ts",
+              "RelativeToolTip": "library.client\\src\\app\\core\\auth\\auth.service.ts",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-13T22:10:11.112Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "login.component.html",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\core\\auth\\login\\login.component.html",
+              "RelativeDocumentMoniker": "library.client\\src\\app\\core\\auth\\login\\login.component.html",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\core\\auth\\login\\login.component.html",
+              "RelativeToolTip": "library.client\\src\\app\\core\\auth\\login\\login.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-13T22:10:19.816Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "login.component.ts",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\core\\auth\\login\\login.component.ts",
+              "RelativeDocumentMoniker": "library.client\\src\\app\\core\\auth\\login\\login.component.ts",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\core\\auth\\login\\login.component.ts",
+              "RelativeToolTip": "library.client\\src\\app\\core\\auth\\login\\login.component.ts",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-13T22:10:29.32Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "register.component.ts",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\core\\auth\\register\\register.component.ts",
+              "RelativeDocumentMoniker": "library.client\\src\\app\\core\\auth\\register\\register.component.ts",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\core\\auth\\register\\register.component.ts",
+              "RelativeToolTip": "library.client\\src\\app\\core\\auth\\register\\register.component.ts",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAB0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-14T02:20:06.432Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookFilterModel.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\ViewModels\\BookViewModels\\BookFilterModel.cs",
+              "RelativeDocumentMoniker": "Library.Server\\ViewModels\\BookViewModels\\BookFilterModel.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\ViewModels\\BookViewModels\\BookFilterModel.cs",
+              "RelativeToolTip": "Library.Server\\ViewModels\\BookViewModels\\BookFilterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T04:20:15.968Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "booklist.component.ts",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\core\\feature\\booklist\\booklist.component.ts",
+              "RelativeDocumentMoniker": "library.client\\src\\app\\core\\feature\\booklist\\booklist.component.ts",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\core\\feature\\booklist\\booklist.component.ts",
+              "RelativeToolTip": "library.client\\src\\app\\core\\feature\\booklist\\booklist.component.ts",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAFkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-14T04:02:37.94Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FeaturedBookModel.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\ViewModels\\BookViewModels\\FeaturedBookModel.cs",
+              "RelativeDocumentMoniker": "Library.Server\\ViewModels\\BookViewModels\\FeaturedBookModel.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\ViewModels\\BookViewModels\\FeaturedBookModel.cs",
+              "RelativeToolTip": "Library.Server\\ViewModels\\BookViewModels\\FeaturedBookModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T04:01:24.891Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "bookdetail.component.ts",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\core\\feature\\bookdetail\\bookdetail.component.ts",
+              "RelativeDocumentMoniker": "library.client\\src\\app\\core\\feature\\bookdetail\\bookdetail.component.ts",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\core\\feature\\bookdetail\\bookdetail.component.ts",
+              "RelativeToolTip": "library.client\\src\\app\\core\\feature\\bookdetail\\bookdetail.component.ts",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAIwKsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-14T04:02:48.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "bookdetail.component.html",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\core\\feature\\bookdetail\\bookdetail.component.html",
+              "RelativeDocumentMoniker": "library.client\\src\\app\\core\\feature\\bookdetail\\bookdetail.component.html",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\core\\feature\\bookdetail\\bookdetail.component.html",
+              "RelativeToolTip": "library.client\\src\\app\\core\\feature\\bookdetail\\bookdetail.component.html",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAE0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-14T04:03:11.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "booklist.component.html",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\core\\feature\\booklist\\booklist.component.html",
+              "RelativeDocumentMoniker": "library.client\\src\\app\\core\\feature\\booklist\\booklist.component.html",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\core\\feature\\booklist\\booklist.component.html",
+              "RelativeToolTip": "library.client\\src\\app\\core\\feature\\booklist\\booklist.component.html",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAE0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-14T04:03:15.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "booklist.component.css",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\core\\feature\\booklist\\booklist.component.css",
+              "RelativeDocumentMoniker": "library.client\\src\\app\\core\\feature\\booklist\\booklist.component.css",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\core\\feature\\booklist\\booklist.component.css",
+              "RelativeToolTip": "library.client\\src\\app\\core\\feature\\booklist\\booklist.component.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-14T10:25:53.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EntityService.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Services\\EntityService.cs",
+              "RelativeDocumentMoniker": "Library.Server\\Services\\EntityService.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Services\\EntityService.cs",
+              "RelativeToolTip": "Library.Server\\Services\\EntityService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAowBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T18:47:43.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "app.module.ts",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\app.module.ts",
+              "RelativeDocumentMoniker": "library.client\\src\\app\\app.module.ts",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\app.module.ts",
+              "RelativeToolTip": "library.client\\src\\app\\app.module.ts",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-13T22:19:25.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "auth.interceptor.ts",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\core\\auth\\auth.interceptor.ts",
+              "RelativeDocumentMoniker": "library.client\\src\\app\\core\\auth\\auth.interceptor.ts",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\core\\auth\\auth.interceptor.ts",
+              "RelativeToolTip": "library.client\\src\\app\\core\\auth\\auth.interceptor.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-14T08:07:17.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserBookCheckOutService.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Services\\UserBookCheckOutService.cs",
+              "RelativeDocumentMoniker": "Library.Server\\Services\\UserBookCheckOutService.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Services\\UserBookCheckOutService.cs",
+              "RelativeToolTip": "Library.Server\\Services\\UserBookCheckOutService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T19:29:45.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "app.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\app.component.spec.ts",
+              "RelativeDocumentMoniker": "library.client\\src\\app\\app.component.spec.ts",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\app.component.spec.ts",
+              "RelativeToolTip": "library.client\\src\\app\\app.component.spec.ts",
+              "ViewState": "AgIAABcAAAAAAAAAAAArwCYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-13T22:38:00.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "register.component.html",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\core\\auth\\register\\register.component.html",
+              "RelativeDocumentMoniker": "library.client\\src\\app\\core\\auth\\register\\register.component.html",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\core\\auth\\register\\register.component.html",
+              "RelativeToolTip": "library.client\\src\\app\\core\\auth\\register\\register.component.html",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-14T02:24:48.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "app.component.html",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\app.component.html",
+              "RelativeDocumentMoniker": "library.client\\src\\app\\app.component.html",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\app.component.html",
+              "RelativeToolTip": "library.client\\src\\app\\app.component.html",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-13T22:41:20.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "app-routing.module.ts",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\app-routing.module.ts",
+              "RelativeDocumentMoniker": "library.client\\src\\app\\app-routing.module.ts",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\app-routing.module.ts",
+              "RelativeToolTip": "library.client\\src\\app\\app-routing.module.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-13T22:19:27.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "proxy.conf.js",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\proxy.conf.js",
+              "RelativeDocumentMoniker": "library.client\\src\\proxy.conf.js",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\proxy.conf.js",
+              "RelativeToolTip": "library.client\\src\\proxy.conf.js",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-14T08:23:29.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "auth.guard.ts",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\core\\auth\\auth.guard.ts",
+              "RelativeDocumentMoniker": "library.client\\src\\app\\core\\auth\\auth.guard.ts",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\core\\auth\\auth.guard.ts",
+              "RelativeToolTip": "library.client\\src\\app\\core\\auth\\auth.guard.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-13T22:09:11.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "app.component.ts",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\app.component.ts",
+              "RelativeDocumentMoniker": "library.client\\src\\app\\app.component.ts",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\app\\app.component.ts",
+              "RelativeToolTip": "library.client\\src\\app\\app.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-13T22:20:40.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DBInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\DBContexts\\DBInitializer.cs",
+              "RelativeDocumentMoniker": "Library.Server\\DBContexts\\DBInitializer.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\DBContexts\\DBInitializer.cs",
+              "RelativeToolTip": "Library.Server\\DBContexts\\DBInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T23:11:21.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\index.html",
+              "RelativeDocumentMoniker": "library.client\\src\\index.html",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\index.html",
+              "RelativeToolTip": "library.client\\src\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-14T06:35:22.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BookDetailModel.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\ViewModels\\BookViewModels\\BookDetailModel.cs",
+              "RelativeDocumentMoniker": "Library.Server\\ViewModels\\BookViewModels\\BookDetailModel.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\ViewModels\\BookViewModels\\BookDetailModel.cs",
+              "RelativeToolTip": "Library.Server\\ViewModels\\BookViewModels\\BookDetailModel.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwC8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T04:13:20.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BookReviewModel.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\ViewModels\\BookViewModels\\BookReviewModel.cs",
+              "RelativeDocumentMoniker": "Library.Server\\ViewModels\\BookViewModels\\BookReviewModel.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\ViewModels\\BookViewModels\\BookReviewModel.cs",
+              "RelativeToolTip": "Library.Server\\ViewModels\\BookViewModels\\BookReviewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T15:35:55.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BookReviewDetailModel.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\ViewModels\\BookViewModels\\BookReviewDetailModel.cs",
+              "RelativeDocumentMoniker": "Library.Server\\ViewModels\\BookViewModels\\BookReviewDetailModel.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\ViewModels\\BookViewModels\\BookReviewDetailModel.cs",
+              "RelativeToolTip": "Library.Server\\ViewModels\\BookViewModels\\BookReviewDetailModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T15:32:10.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "main.ts",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\main.ts",
+              "RelativeDocumentMoniker": "library.client\\src\\main.ts",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\src\\main.ts",
+              "RelativeToolTip": "library.client\\src\\main.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-13T22:35:25.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "tsconfig.json",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\tsconfig.json",
+              "RelativeDocumentMoniker": "library.client\\tsconfig.json",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\library.client\\tsconfig.json",
+              "RelativeToolTip": "library.client\\tsconfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-13T18:43:04.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Program.cs",
+              "RelativeDocumentMoniker": "Library.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Program.cs",
+              "RelativeToolTip": "Library.Server\\Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAEUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T17:20:51.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Models\\Identity\\AppUser.cs",
+              "RelativeDocumentMoniker": "Library.Server\\Models\\Identity\\AppUser.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Models\\Identity\\AppUser.cs",
+              "RelativeToolTip": "Library.Server\\Models\\Identity\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T13:04:10.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AuthenticationRequirementsOperationFilter.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Filters\\AuthenticationRequirementsOperationFilter.cs",
+              "RelativeDocumentMoniker": "Library.Server\\Filters\\AuthenticationRequirementsOperationFilter.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Filters\\AuthenticationRequirementsOperationFilter.cs",
+              "RelativeToolTip": "Library.Server\\Filters\\AuthenticationRequirementsOperationFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T17:59:13.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "Library.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\appsettings.json",
+              "RelativeToolTip": "Library.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAgAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-11T16:21:49.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AppRole.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Models\\Identity\\AppRole.cs",
+              "RelativeDocumentMoniker": "Library.Server\\Models\\Identity\\AppRole.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Models\\Identity\\AppRole.cs",
+              "RelativeToolTip": "Library.Server\\Models\\Identity\\AppRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T15:29:35.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Interfaces\\Services\\IBookService.cs",
+              "RelativeDocumentMoniker": "Library.Server\\Interfaces\\Services\\IBookService.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Interfaces\\Services\\IBookService.cs",
+              "RelativeToolTip": "Library.Server\\Interfaces\\Services\\IBookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T19:26:09.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UserBookReview.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Models\\Entity\\UserBookReview.cs",
+              "RelativeDocumentMoniker": "Library.Server\\Models\\Entity\\UserBookReview.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Models\\Entity\\UserBookReview.cs",
+              "RelativeToolTip": "Library.Server\\Models\\Entity\\UserBookReview.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAB8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T15:51:33.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Models\\Entity\\Book.cs",
+              "RelativeDocumentMoniker": "Library.Server\\Models\\Entity\\Book.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Models\\Entity\\Book.cs",
+              "RelativeToolTip": "Library.Server\\Models\\Entity\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T12:59:11.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IEntityService.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Interfaces\\Services\\IEntityService.cs",
+              "RelativeDocumentMoniker": "Library.Server\\Interfaces\\Services\\IEntityService.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Interfaces\\Services\\IEntityService.cs",
+              "RelativeToolTip": "Library.Server\\Interfaces\\Services\\IEntityService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T18:43:04.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UserBookCheckOut.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Models\\Entity\\UserBookCheckOut.cs",
+              "RelativeDocumentMoniker": "Library.Server\\Models\\Entity\\UserBookCheckOut.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Models\\Entity\\UserBookCheckOut.cs",
+              "RelativeToolTip": "Library.Server\\Models\\Entity\\UserBookCheckOut.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T15:32:51.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Models\\Entity\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Library.Server\\Models\\Entity\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Models\\Entity\\BaseEntity.cs",
+              "RelativeToolTip": "Library.Server\\Models\\Entity\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T15:34:45.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AppUserRole.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Models\\Identity\\AppUserRole.cs",
+              "RelativeDocumentMoniker": "Library.Server\\Models\\Identity\\AppUserRole.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Models\\Identity\\AppUserRole.cs",
+              "RelativeToolTip": "Library.Server\\Models\\Identity\\AppUserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T23:04:37.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "UserBookCheckOutMap.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\DBContexts\\Mapping\\UserBookCheckOutMap.cs",
+              "RelativeDocumentMoniker": "Library.Server\\DBContexts\\Mapping\\UserBookCheckOutMap.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\DBContexts\\Mapping\\UserBookCheckOutMap.cs",
+              "RelativeToolTip": "Library.Server\\DBContexts\\Mapping\\UserBookCheckOutMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAACDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T15:53:31.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "BookMap.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\DBContexts\\Mapping\\BookMap.cs",
+              "RelativeDocumentMoniker": "Library.Server\\DBContexts\\Mapping\\BookMap.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\DBContexts\\Mapping\\BookMap.cs",
+              "RelativeToolTip": "Library.Server\\DBContexts\\Mapping\\BookMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T13:07:42.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\DBContexts\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "Library.Server\\DBContexts\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\DBContexts\\AppDBContext.cs",
+              "RelativeToolTip": "Library.Server\\DBContexts\\AppDBContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA1wCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T16:57:01.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "EntityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Repositories\\EntityRepository.cs",
+              "RelativeDocumentMoniker": "Library.Server\\Repositories\\EntityRepository.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Repositories\\EntityRepository.cs",
+              "RelativeToolTip": "Library.Server\\Repositories\\EntityRepository.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAowFwAAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T18:13:14.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UserBookReviewService.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Services\\UserBookReviewService.cs",
+              "RelativeDocumentMoniker": "Library.Server\\Services\\UserBookReviewService.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Services\\UserBookReviewService.cs",
+              "RelativeToolTip": "Library.Server\\Services\\UserBookReviewService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T19:30:11.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IUserBookReviewService.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Interfaces\\Services\\IUserBookReviewService.cs",
+              "RelativeDocumentMoniker": "Library.Server\\Interfaces\\Services\\IUserBookReviewService.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Interfaces\\Services\\IUserBookReviewService.cs",
+              "RelativeToolTip": "Library.Server\\Interfaces\\Services\\IUserBookReviewService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T19:27:09.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "IUserBookCheckOutService.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Interfaces\\Services\\IUserBookCheckOutService.cs",
+              "RelativeDocumentMoniker": "Library.Server\\Interfaces\\Services\\IUserBookCheckOutService.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Interfaces\\Services\\IUserBookCheckOutService.cs",
+              "RelativeToolTip": "Library.Server\\Interfaces\\Services\\IUserBookCheckOutService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T19:26:37.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IEntityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Interfaces\\Repositories\\IEntityRepository.cs",
+              "RelativeDocumentMoniker": "Library.Server\\Interfaces\\Repositories\\IEntityRepository.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Interfaces\\Repositories\\IEntityRepository.cs",
+              "RelativeToolTip": "Library.Server\\Interfaces\\Repositories\\IEntityRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T18:04:19.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Library.Server\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Library.Server\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T20:17:29.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "UserBookReviewMap.cs",
+              "DocumentMoniker": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\DBContexts\\Mapping\\UserBookReviewMap.cs",
+              "RelativeDocumentMoniker": "Library.Server\\DBContexts\\Mapping\\UserBookReviewMap.cs",
+              "ToolTip": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\DBContexts\\Mapping\\UserBookReviewMap.cs",
+              "RelativeToolTip": "Library.Server\\DBContexts\\Mapping\\UserBookReviewMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T15:54:12.813Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

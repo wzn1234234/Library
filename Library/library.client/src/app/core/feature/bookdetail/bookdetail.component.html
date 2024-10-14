@@ -1,0 +1,105 @@
+<div class="form-floating mb-3">
+  <input readonly="{{isCustomer}}" name="Title" type="text" class="form-control" placeholder="Title" [(ngModel)]="book.Title" required>
+  <label name="Title">Title</label>
+</div>
+<div class="form-floating mb-3">
+  <input readonly="{{isCustomer}}" name="Author" type="text" class="form-control" placeholder="Author" [(ngModel)]="book.Author" required>
+  <label name="Author">Author</label>
+</div>
+<div *ngIf="book.Id != 0" class="form-floating mb-3">
+  <img src="/images/{{ book.CoverImagePath }}" alt="{{ book.Title }}">
+</div>
+<div *ngIf="book.Id == 0" class="form-floating mb-3">
+  <input name="CoverImage" type="file" class="form-control" placeholder="CoverImage" [(ngModel)]="book.CoverImage" required>
+  <label name="CoverImage">CoverImage</label>
+</div>
+<div class="form-floating mb-3">
+  <input readonly="{{isCustomer}}" name="Publisher" type="text" class="form-control" placeholder="Publisher" [(ngModel)]="book.Publisher" required>
+  <label name="Publisher">Publisher</label>
+</div>
+<div class="form-floating mb-3">
+  <input readonly="{{isCustomer}}" name="PublicationDate" type="date" class="form-control" placeholder="PublicationDate" [(ngModel)]="book.PublicationDate" required>
+  <label name="PublicationDate">Publication Date</label>
+</div>
+<div class="form-floating mb-3">
+  <input readonly="{{isCustomer}}" name="Category" type="text" class="form-control" placeholder="Category" [(ngModel)]="book.Category" required>
+  <label name="Category">Category</label>
+</div>
+<div class="form-floating mb-3">
+  <input readonly="{{isCustomer}}" name="ISBN" type="text" class="form-control" placeholder="ISBN" [(ngModel)]="book.ISBN" required>
+  <label name="ISBN">ISBN</label>
+</div>
+<div class="form-floating mb-3">
+  <input readonly="{{isCustomer}}" name="PageCount" type="text" class="form-control" placeholder="PageCount" [(ngModel)]="book.PageCount" required>
+  <label name="PageCount">Page Count</label>
+</div>
+<div class="form-floating mb-3">
+  <input readonly name="AverageRate" type="text" class="form-control" placeholder="AverageRate" [(ngModel)]="book.AverageRate" required>
+  <label name="AverageRate">Average Rate</label>
+</div>
+<div class="form-floating mb-3">
+  <input readonly name="Availability" type="text" class="form-control" placeholder="Availability" [(ngModel)]="book.Availability" required>
+  <label name="Availability">Availability</label>
+</div>
+<div class="form-floating mb-3">
+  <input readonly="{{isCustomer}}" name="Description" type="text" class="form-control" placeholder="Description" [(ngModel)]="book.Description" required>
+  <label name="Description">Description</label>
+</div>
+
+<div *ngIf="book.Id != 0" class="col-12 m-0 overflow-auto" style="height:70vh;">
+  <table *ngIf="book.UserBookReviews">
+    <thead>
+      <tr>
+        <th>Review</th>
+        <th>Rate</th>
+        <th>Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let userBookReview of book.UserBookReviews">
+        <td>{{ userBookReview.Review }}</td>
+        <td>{{ userBookReview.Rate }}</td>
+        <td>{{ userBookReview.FirstName }} {{ userBookReview.LastName }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div *ngIf="book.Id != 0" name="review">
+  <div class="form-floating mb-3">
+    <input readonlu name="Review" type="text" class="form-control" placeholder="Review" [(ngModel)]="review.Review" required>
+    <label name="Review">Review</label>
+  </div>
+  <div class="form-floating mb-3">
+    <input readonly name="Rate" type="text" class="form-control" placeholder="Rate" [(ngModel)]="review.Rate" required>
+    <label name="Rate">Rate</label>
+  </div>
+  <div class="mb-3">
+    <button type="button" class="btn btn-info" (click)="reviewbook()">
+      Add Review
+    </button>
+  </div>
+</div>
+
+<div *ngIf="book.Availability" class="mb-3">
+  <button *ngIf="book.Id != 0" type="button" class="btn btn-info" (click)="checkoutbook()">
+    Check Out
+  </button>
+</div>
+<div *ngIf="" class="mb-3">
+  <button *ngIf="book.Id == 0" type="button" class="btn btn-info" (click)="addBook()">
+    Add Book
+  </button>
+  <button *ngIf="book.Id != 0 && isLibrarian" type="button" class="btn btn-info" (click)="getAddBookPage()">
+    Add Book
+  </button>
+  <button *ngIf="book.Id != 0" type="button" class="btn btn-info" (click)="editBook()">
+    Edit Book
+  </button>
+  <button *ngIf="book.Id != 0" type="button" class="btn btn-info" (click)="removeBook()">
+    Remove Book
+  </button>
+  <button *ngIf="book.Id != 0" type="button" class="btn btn-info" (click)="returnbook()">
+    Return Book
+  </button>
+</div>

@@ -1,0 +1,39 @@
+<div class="col-md-4 m-auto">
+  <form class="align-content-center" enctype="multipart/form-data">
+    <div class="form-floating mb-3">
+      <input name="UserName" type="text" class="form-control" placeholder="User Name" [(ngModel)]="registerModel.UserName" required>
+      <label name="UserName">User Name</label>
+    </div>
+    <div class="form-floating mb-3">
+      <input name="Password" type="password" class="form-control" placeholder="Password" [(ngModel)]="registerModel.Password" required>
+      <label name="Password">User Password</label>
+    </div>
+    <div class="form-floating mb-3">
+      <input name="FirstName" type="text" class="form-control" placeholder="First Name" [(ngModel)]="registerModel.FirstName" required>
+      <label name="FirstName">First Name</label>
+    </div>
+    <div class="form-floating mb-3">
+      <input name="LastName" type="text" class="form-control" placeholder="Last Name" [(ngModel)]="registerModel.LastName" required>
+      <label name="LastName">Last Name</label>
+    </div>
+    <div class="mb-3">
+      <input type="radio" name="Role" [(ngModel)]="registerModel.RoleId" [value]="1">
+      <label>Librarian</label>
+      <div class="col-3 text-start"></div>
+      <input type="radio" name="Role" [(ngModel)]="registerModel.RoleId" [value]="2">
+      <label>Customer</label>
+    </div>
+    <div class="row justify-content-around">
+      <div class="col-6 text-start">
+        <button type="button" class="btn btn-info" (click)="register()">
+          Register
+        </button>
+      </div>
+      <div class="col-6 text-end">
+        <button type="button" class="btn btn-primary" (click)="login()">
+          Back To Login
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
