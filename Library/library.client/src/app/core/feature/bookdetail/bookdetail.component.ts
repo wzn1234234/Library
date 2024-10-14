@@ -60,12 +60,14 @@ export class BookDetailComponent {
   review: BookReviewModel = { BookId: 0, Review: "", Rate: 0 };
   isLibrarian: boolean = this.authService.isLibrarian();
   isCustomer: boolean = this.authService.isCustomer();
+  addMode: boolean = false;
 
   ngOnInit() {
     this.currentBookId = localStorage.getItem('currentbookid') ==null ? 0 : Number(localStorage.getItem('currentbookid'));
     this.review = { BookId: this.currentBookId, Review: "", Rate: 0 };
 
     this.getBookDetail();
+    this.addMode = this.book.Id == 0;
   }
 
   getBookDetail() {

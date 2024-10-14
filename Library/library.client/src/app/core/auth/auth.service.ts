@@ -11,8 +11,6 @@ export class AuthService {
   login(token: string, role: string): void {
     localStorage.setItem('token', token);
     localStorage.setItem('role', role);
-    console.log('token added');
-    console.log(localStorage.getItem('token'));
   }
 
   register(token: string, role: string): void {
@@ -21,13 +19,11 @@ export class AuthService {
   }
 
   logout(): void {
-    console.log('token removed');
     localStorage.removeItem('token');
     localStorage.removeItem('role');
   }
 
   getToken(): string | null {
-    console.log(localStorage.getItem('token'));
     return localStorage.getItem('token');
     
   }

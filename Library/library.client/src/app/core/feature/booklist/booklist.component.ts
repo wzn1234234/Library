@@ -1,5 +1,5 @@
 // login.component.ts
-import { HttpClient, HttpParams } from '@angular/common/http';
+import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { Router } from '@angular/router';
 import { AuthService } from '../../auth/auth.service';
@@ -87,7 +87,7 @@ export class BookListComponent {
   }
 
   checkoutbook(event: any) {
-    this.http.post('/book/checkoutbook', event.target.value).subscribe(
+    this.http.post('/book/checkoutbook', parseInt(event.target.value)).subscribe(
       (result) => {
         this.search();
       },
@@ -98,7 +98,7 @@ export class BookListComponent {
   }
 
   returnbook(event: any) {
-    this.http.post('/book/returnbook', event.target.value).subscribe(
+    this.http.post('/book/returnbook', parseInt(event.target.value)).subscribe(
       (result) => {
         this.search();
       },

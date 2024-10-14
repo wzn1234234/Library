@@ -46,7 +46,7 @@ namespace Library.Server.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet("GetBook")]
-        public async Task<BookDetailModel> GetBook([FromBody] int bookId)
+        public async Task<BookDetailModel> GetBook(int bookId)
         {
             try
             {
@@ -100,7 +100,7 @@ namespace Library.Server.Controllers
         /// <returns></returns>
         [Authorize(Roles = "Librarian")]
         [HttpPost("RemoveBook")]
-        public async Task<bool> RemoveBook([FromBody] int bookId)
+        public async Task<bool> RemoveBook(int bookId)
         {
             try
             {
@@ -117,7 +117,7 @@ namespace Library.Server.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpPost("CheckoutBook")]
-        public async Task<BookDetailModel> CheckoutBook([FromBody] int bookId)
+        public async Task<BookDetailModel> CheckoutBook(int bookId)
         {
             try
             {
@@ -135,7 +135,7 @@ namespace Library.Server.Controllers
         /// <returns></returns>
         [Authorize(Roles = "Librarian")]
         [HttpPost("ReturnBook")]
-        public async Task<BookDetailModel> ReturnBook([FromBody] int bookId)
+        public async Task<BookDetailModel> ReturnBook(int bookId)
         {
             try
             {
