@@ -148,3 +148,12 @@ C:\Users\wzn12\OneDrive\Documents\GitHub\Library\Library\Library.Server\bin\Debu
 C:\Users\wzn12\OneDrive\Documents\GitHub\Library\Library\Library.Server\bin\Debug\net8.0\Scrutor.dll
 C:\Users\wzn12\OneDrive\Documents\GitHub\Library\Library\Library.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.dll
 C:\Users\wzn12\OneDrive\Documents\GitHub\Library\Library\Library.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\Users\wzn12\Documents\GUP\Library\Library\Library.Server\obj\Debug\net8.0\Library.Server.csproj.AssemblyReference.cache
+C:\Users\wzn12\Documents\GUP\Library\Library\Library.Server\obj\Debug\net8.0\spa.proxy.json
+C:\Users\wzn12\Documents\GUP\Library\Library\Library.Server\obj\Debug\net8.0\Library.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wzn12\Documents\GUP\Library\Library\Library.Server\obj\Debug\net8.0\Library.Server.AssemblyInfoInputs.cache
+C:\Users\wzn12\Documents\GUP\Library\Library\Library.Server\obj\Debug\net8.0\Library.Server.AssemblyInfo.cs
+C:\Users\wzn12\Documents\GUP\Library\Library\Library.Server\obj\Debug\net8.0\Library.Server.csproj.CoreCompileInputs.cache
+C:\Users\wzn12\Documents\GUP\Library\Library\Library.Server\obj\Debug\net8.0\Library.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\wzn12\Documents\GUP\Library\Library\Library.Server\obj\Debug\net8.0\Library.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\wzn12\Documents\GUP\Library\Library\Library.Server\obj\Debug\net8.0\Library.Server.sourcelink.json

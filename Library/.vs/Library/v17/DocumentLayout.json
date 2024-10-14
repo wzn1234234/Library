@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\wzn12\\Documents\\GUP\\Library\\Library\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\documents\\gup\\library\\library\\library.client\\src\\app\\core\\feature\\booklist\\booklist.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\src\\app\\core\\feature\\booklist\\booklist.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\documents\\gup\\library\\library\\library.server\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\documents\\gup\\library\\library\\library.client\\src\\proxy.conf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\src\\proxy.conf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -21,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\documents\\gup\\library\\library\\library.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\documents\\gup\\library\\library\\library.client\\src\\app\\core\\feature\\booklist\\booklist.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|solutionrelative:library.client\\src\\app\\core\\feature\\booklist\\booklist.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|c:\\users\\wzn12\\documents\\gup\\library\\library\\library.server\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1349722-FE7A-4037-82CC-97883C6C5E66}|Library.Server\\Library.Server.csproj|solutionrelative:library.server\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87E62B18-2A23-41DF-A905-53F1683B0FE1}|library.client\\library.client.esproj|c:\\users\\wzn12\\documents\\gup\\library\\library\\library.client\\src\\app\\core\\feature\\bookdetail\\bookdetail.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -222,17 +222,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "BookController.cs",
               "DocumentMoniker": "C:\\Users\\wzn12\\Documents\\GUP\\Library\\Library\\Library.Server\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "Library.Server\\Controllers\\BookController.cs",
               "ToolTip": "C:\\Users\\wzn12\\Documents\\GUP\\Library\\Library\\Library.Server\\Controllers\\BookController.cs",
               "RelativeToolTip": "Library.Server\\Controllers\\BookController.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAmwIEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAwKIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T21:03:59.76Z",
               "IsPinned": true,
@@ -335,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "booklist.component.ts",
               "DocumentMoniker": "C:\\Users\\wzn12\\Documents\\GUP\\Library\\Library\\library.client\\src\\app\\core\\feature\\booklist\\booklist.component.ts",
               "RelativeDocumentMoniker": "library.client\\src\\app\\core\\feature\\booklist\\booklist.component.ts",
@@ -362,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "app.component.html",
               "DocumentMoniker": "C:\\Users\\wzn12\\Documents\\GUP\\Library\\Library\\library.client\\src\\app\\app.component.html",
               "RelativeDocumentMoniker": "library.client\\src\\app\\app.component.html",
@@ -375,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "app.component.spec.ts",
               "DocumentMoniker": "C:\\Users\\wzn12\\Documents\\GUP\\Library\\Library\\library.client\\src\\app\\app.component.spec.ts",
               "RelativeDocumentMoniker": "library.client\\src\\app\\app.component.spec.ts",
@@ -388,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "app.component.ts",
               "DocumentMoniker": "C:\\Users\\wzn12\\Documents\\GUP\\Library\\Library\\library.client\\src\\app\\app.component.ts",
               "RelativeDocumentMoniker": "library.client\\src\\app\\app.component.ts",
@@ -401,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "app-routing.module.ts",
               "DocumentMoniker": "C:\\Users\\wzn12\\Documents\\GUP\\Library\\Library\\library.client\\src\\app\\app-routing.module.ts",
               "RelativeDocumentMoniker": "library.client\\src\\app\\app-routing.module.ts",
@@ -414,13 +414,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "proxy.conf.js",
               "DocumentMoniker": "C:\\Users\\wzn12\\Documents\\GUP\\Library\\Library\\library.client\\src\\proxy.conf.js",
               "RelativeDocumentMoniker": "library.client\\src\\proxy.conf.js",
               "ToolTip": "C:\\Users\\wzn12\\Documents\\GUP\\Library\\Library\\library.client\\src\\proxy.conf.js",
               "RelativeToolTip": "library.client\\src\\proxy.conf.js",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEEAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAFMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-10-14T08:23:29.629Z",
               "EditorCaption": ""

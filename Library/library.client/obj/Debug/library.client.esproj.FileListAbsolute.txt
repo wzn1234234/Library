@@ -1,1 +1,2 @@
 C:\Users\wzn12\OneDrive\Documents\GitHub\Library\Library\library.client\obj\Debug\library.client.esproj.CoreCompileInputs.cache
+C:\Users\wzn12\Documents\GUP\Library\Library\library.client\obj\Debug\library.client.esproj.CoreCompileInputs.cache

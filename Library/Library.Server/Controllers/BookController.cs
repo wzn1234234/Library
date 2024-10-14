@@ -12,11 +12,11 @@ namespace Library.Server.Controllers
     [Route("[controller]")]
     public class BookController : ControllerBase
     {
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<BookController> _logger;
         private readonly IBookService _bookService;
 
         public BookController(
-            ILogger<WeatherForecastController> logger,
+            ILogger<BookController> logger,
             IBookService bookService
             )
         {
