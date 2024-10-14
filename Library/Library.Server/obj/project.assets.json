@@ -4388,11 +4388,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Library.Server.csproj",
+      "projectUniqueName": "C:\\Users\\wzn12\\Documents\\GUP\\Library\\Library\\Library.Server\\Library.Server.csproj",
       "projectName": "Library.Server",
-      "projectPath": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\Library.Server.csproj",
+      "projectPath": "C:\\Users\\wzn12\\Documents\\GUP\\Library\\Library\\Library.Server\\Library.Server.csproj",
       "packagesPath": "C:\\Users\\wzn12\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wzn12\\OneDrive\\Documents\\GitHub\\Library\\Library\\Library.Server\\obj\\",
+      "outputPath": "C:\\Users\\wzn12\\Documents\\GUP\\Library\\Library\\Library.Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wzn12\\AppData\\Roaming\\NuGet\\NuGet.Config",
