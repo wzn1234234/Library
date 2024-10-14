@@ -1,53 +1,53 @@
 <div class="form-floating mb-3">
-  <input readonly="{{isCustomer}}" name="Title" type="text" class="form-control" placeholder="Title" [(ngModel)]="book.Title" required>
+  <input readonly="{{isCustomer}}" name="Title" type="text" class="form-control" placeholder="Title" [(ngModel)]="book.title" required>
   <label name="Title">Title</label>
 </div>
 <div class="form-floating mb-3">
-  <input readonly="{{isCustomer}}" name="Author" type="text" class="form-control" placeholder="Author" [(ngModel)]="book.Author" required>
+  <input readonly="{{isCustomer}}" name="Author" type="text" class="form-control" placeholder="Author" [(ngModel)]="book.author" required>
   <label name="Author">Author</label>
 </div>
 <div class="form-floating mb-3">
-  <img src="/images/{{ book.CoverImagePath }}" alt="{{ book.Title }}">
+  <img src="/images/{{ book.coverImagePath }}" alt="{{ book.title }}">
 </div>
 <div *ngIf="addMode" class="form-floating mb-3">
-  <input name="CoverImage" type="file" class="form-control" placeholder="CoverImage" [(ngModel)]="book.CoverImage" required>
+  <input name="CoverImage" type="file" class="form-control" placeholder="CoverImage" [(ngModel)]="book.coverImage" required>
   <label name="CoverImage">CoverImage</label>
 </div>
 <div class="form-floating mb-3">
-  <input readonly="{{isCustomer}}" name="Publisher" type="text" class="form-control" placeholder="Publisher" [(ngModel)]="book.Publisher" required>
+  <input readonly="{{isCustomer}}" name="Publisher" type="text" class="form-control" placeholder="Publisher" [(ngModel)]="book.publisher" required>
   <label name="Publisher">Publisher</label>
 </div>
 <div class="form-floating mb-3">
-  <input readonly="{{isCustomer}}" name="PublicationDate" type="date" class="form-control" placeholder="PublicationDate" [(ngModel)]="book.PublicationDate" required>
+  <input readonly="{{isCustomer}}" name="PublicationDate" type="date" class="form-control" placeholder="PublicationDate" [(ngModel)]="book.publicationDate" required>
   <label name="PublicationDate">Publication Date</label>
 </div>
 <div class="form-floating mb-3">
-  <input readonly="{{isCustomer}}" name="Category" type="text" class="form-control" placeholder="Category" [(ngModel)]="book.Category" required>
+  <input readonly="{{isCustomer}}" name="Category" type="text" class="form-control" placeholder="Category" [(ngModel)]="book.category" required>
   <label name="Category">Category</label>
 </div>
 <div class="form-floating mb-3">
-  <input readonly="{{isCustomer}}" name="ISBN" type="text" class="form-control" placeholder="ISBN" [(ngModel)]="book.ISBN" required>
+  <input readonly="{{isCustomer}}" name="ISBN" type="text" class="form-control" placeholder="ISBN" [(ngModel)]="book.isbn" required>
   <label name="ISBN">ISBN</label>
 </div>
 <div class="form-floating mb-3">
-  <input readonly="{{isCustomer}}" name="PageCount" type="text" class="form-control" placeholder="PageCount" [(ngModel)]="book.PageCount" required>
+  <input readonly="{{isCustomer}}" name="PageCount" type="text" class="form-control" placeholder="PageCount" [(ngModel)]="book.pageCount" required>
   <label name="PageCount">Page Count</label>
 </div>
 <div class="form-floating mb-3">
-  <input readonly name="AverageRate" type="text" class="form-control" placeholder="AverageRate" [(ngModel)]="book.AverageRate" required>
+  <input readonly name="AverageRate" type="text" class="form-control" placeholder="AverageRate" [(ngModel)]="book.averageRate" required>
   <label name="AverageRate">Average Rate</label>
 </div>
 <div class="form-floating mb-3">
-  <input readonly name="Availability" type="text" class="form-control" placeholder="Availability" [(ngModel)]="book.Availability" required>
+  <input readonly name="Availability" type="text" class="form-control" placeholder="Availability" [(ngModel)]="book.availability" required>
   <label name="Availability">Availability</label>
 </div>
 <div class="form-floating mb-3">
-  <input readonly="{{isCustomer}}" name="Description" type="text" class="form-control" placeholder="Description" [(ngModel)]="book.Description" required>
+  <textarea  readonly="{{isCustomer}}" name="Description" rows="5" class="form-control" placeholder="Description" [(ngModel)]="book.description" required></textarea>
   <label name="Description">Description</label>
 </div>
 
 <div *ngIf="!addMode" class="col-12 m-0 overflow-auto" style="height:70vh;">
-  <table *ngIf="book.UserBookReviews">
+  <table *ngIf="book.userBookReviews">
     <thead>
       <tr>
         <th>Review</th>
@@ -56,10 +56,10 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let userBookReview of book.UserBookReviews">
-        <td>{{ userBookReview.Review }}</td>
-        <td>{{ userBookReview.Rate }}</td>
-        <td>{{ userBookReview.FirstName }} {{ userBookReview.LastName }}</td>
+      <tr *ngFor="let userBookReview of book.userBookReviews">
+        <td>{{ userBookReview.review }}</td>
+        <td>{{ userBookReview.rate }}</td>
+        <td>{{ userBookReview.firstName }} {{ userBookReview.lastName }}</td>
       </tr>
     </tbody>
   </table>
@@ -67,11 +67,11 @@
 
 <div *ngIf="!addMode" name="review">
   <div class="form-floating mb-3">
-    <input readonlu name="Review" type="text" class="form-control" placeholder="Review" [(ngModel)]="review.Review" required>
+    <input readonlu name="Review" type="text" class="form-control" placeholder="Review" [(ngModel)]="review.review" required>
     <label name="Review">Review</label>
   </div>
   <div class="form-floating mb-3">
-    <input readonly name="Rate" type="text" class="form-control" placeholder="Rate" [(ngModel)]="review.Rate" required>
+    <input readonly name="Rate" type="text" class="form-control" placeholder="Rate" [(ngModel)]="review.rate" required>
     <label name="Rate">Rate</label>
   </div>
   <div class="mb-3">
@@ -81,19 +81,19 @@
   </div>
 </div>
 
-<div *ngIf="book.Availability" class="mb-3">
+<div *ngIf="book.availability" class="mb-3">
   <button *ngIf="!addMode" type="button" class="btn btn-info" (click)="checkoutbook()">
     Check Out
   </button>
 </div>
-<div *ngIf="" class="mb-3">
+<div class="mb-3">
   <button *ngIf="addMode" type="button" class="btn btn-info" (click)="addBook()">
     Add Book
   </button>
   <button *ngIf="!addMode && isLibrarian" type="button" class="btn btn-info" (click)="getAddBookPage()">
-    Add Book
+    Add New Book
   </button>
-  <button *ngIf="addMode!" type="button" class="btn btn-info" (click)="editBook()">
+  <button *ngIf="!addMode" type="button" class="btn btn-info" (click)="editBook()">
     Edit Book
   </button>
   <button *ngIf="!addMode" type="button" class="btn btn-info" (click)="removeBook()">

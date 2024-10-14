@@ -5,32 +5,32 @@ import { AuthService } from '../../auth/auth.service';
 import { Router } from '@angular/router';
 
 interface BookReviewModel {
-  BookId: number;
-  Review: string;
-  Rate: number;
+  bookId: number;
+  review: string;
+  rate: number;
 }
 interface BookReviewDetailModel {
-  BookId: number;
-  Review: string;
-  Rate: number;
-  FirstName: string;
-  LastName: string;
+  bookId: number;
+  review: string;
+  rate: number;
+  firstName: string;
+  lastName: string;
 }
 interface BookDetailModel {
-  Id: number;
-  Title: string;
-  Author: string;
-  Description: string;
-  CoverImagePath: string;
-  AverageRate: number;
-  Availability: number;
-  Publisher: string;
-  PublicationDate: Date | null;
-  Category: string;
-  ISBN: string;
-  PageCount: number;
-  CoverImage: File | null;
-  UserBookReviews: BookReviewDetailModel[]
+  id: number;
+  title: string;
+  author: string;
+  description: string;
+  coverImagePath: string;
+  averageRate: number;
+  availability: number;
+  publisher: string;
+  publicationDate: Date | null;
+  category: string;
+  isbn: string;
+  pageCount: number;
+  coverImage: File | null;
+  userBookReviews: BookReviewDetailModel[]
 }
 
 @Component({
@@ -42,39 +42,39 @@ export class BookDetailComponent {
   constructor(private http: HttpClient, private authService: AuthService, private router: Router) { }
   currentBookId: number = 0;
   book: BookDetailModel = {
-    Id: 0,
-    Title: "",
-    Author: "",
-    Description: "",
-    CoverImagePath: "",
-    AverageRate: 0,
-    Availability: 1,
-    Publisher: "",
-    PublicationDate: null,
-    Category: "",
-    ISBN: "",
-    PageCount: 0,
-    CoverImage: null,
-    UserBookReviews: []
+    id: 0,
+    title: "",
+    author: "",
+    description: "",
+    coverImagePath: "",
+    averageRate: 0,
+    availability: 1,
+    publisher: "",
+    publicationDate: null,
+    category: "",
+    isbn: "",
+    pageCount: 0,
+    coverImage: null,
+    userBookReviews: []
   };
-  review: BookReviewModel = { BookId: 0, Review: "", Rate: 0 };
+  review: BookReviewModel = { bookId: 0, review: "", rate: 0 };
   isLibrarian: boolean = this.authService.isLibrarian();
   isCustomer: boolean = this.authService.isCustomer();
   addMode: boolean = false;
 
   ngOnInit() {
     this.currentBookId = localStorage.getItem('currentbookid') ==null ? 0 : Number(localStorage.getItem('currentbookid'));
-    this.review = { BookId: this.currentBookId, Review: "", Rate: 0 };
+    this.review = { bookId: this.currentBookId, review: "", rate: 0 };
 
     this.getBookDetail();
-    this.addMode = this.book.Id == 0;
+    this.addMode = this.book.id == 0;
   }
 
   getBookDetail() {
     if (this.currentBookId != 0) {
       const params = new HttpParams()
         .set('bookId', this.currentBookId);
-      this.http.get<BookDetailModel>('/getbook', { params }).subscribe(
+      this.http.get<BookDetailModel>('/book/getbook', { params }).subscribe(
         (result) => {
           this.book = result;
         },
@@ -87,20 +87,20 @@ export class BookDetailComponent {
 
   getAddBookPage() {
     this.book = {
-      Id: 0,
-      Title: "",
-      Author: "",
-      Description: "",
-      CoverImagePath: "",
-      AverageRate: 0,
-      Availability: 1,
-      Publisher: "",
-      PublicationDate: null,
-      Category: "",
-      ISBN: "",
-      PageCount: 0,
-      CoverImage: null,
-      UserBookReviews: []
+      id: 0,
+      title: "",
+      author: "",
+      description: "",
+      coverImagePath: "",
+      averageRate: 0,
+      availability: 1,
+      publisher: "",
+      publicationDate: null,
+      category: "",
+      isbn: "",
+      pageCount: 0,
+      coverImage: null,
+      userBookReviews: []
     }
   }
 

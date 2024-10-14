@@ -46,7 +46,7 @@ namespace Library.Server.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet("GetBook")]
-        public async Task<BookDetailModel> GetBook(int bookId)
+        public async Task<BookDetailModel> GetBook([FromQuery] int bookId)
         {
             try
             {
@@ -62,7 +62,7 @@ namespace Library.Server.Controllers
         /// Add a new book
         /// </summary>
         /// <returns></returns>
-        [Authorize(Roles = "Librarian")]
+        //[Authorize(Roles = "Librarian")]
         [HttpPost("AddBook")]
         public async Task<bool> AddBook([FromBody] BookDetailModel model)
         {
@@ -80,7 +80,7 @@ namespace Library.Server.Controllers
         /// Edit a book detail
         /// </summary>
         /// <returns></returns>
-        [Authorize(Roles = "Librarian")]
+        //[Authorize(Roles = "Librarian")]
         [HttpPost("EditBook")]
         public async Task<bool> EditBook([FromBody] BookDetailModel model)
         {
@@ -98,9 +98,9 @@ namespace Library.Server.Controllers
         /// Remove a book
         /// </summary>
         /// <returns></returns>
-        [Authorize(Roles = "Librarian")]
+        //[Authorize(Roles = "Librarian")]
         [HttpPost("RemoveBook")]
-        public async Task<bool> RemoveBook(int bookId)
+        public async Task<bool> RemoveBook([FromBody] int bookId)
         {
             try
             {
@@ -117,7 +117,7 @@ namespace Library.Server.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpPost("CheckoutBook")]
-        public async Task<BookDetailModel> CheckoutBook(int bookId)
+        public async Task<BookDetailModel> CheckoutBook([FromBody] int bookId)
         {
             try
             {
@@ -133,9 +133,9 @@ namespace Library.Server.Controllers
         /// Return a book
         /// </summary>
         /// <returns></returns>
-        [Authorize(Roles = "Librarian")]
+        //[Authorize(Roles = "Librarian")]
         [HttpPost("ReturnBook")]
-        public async Task<BookDetailModel> ReturnBook(int bookId)
+        public async Task<BookDetailModel> ReturnBook([FromBody] int bookId)
         {
             try
             {

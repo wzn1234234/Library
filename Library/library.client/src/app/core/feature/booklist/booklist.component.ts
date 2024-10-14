@@ -58,8 +58,6 @@ export class BookListComponent {
   }
 
   search(): void {
-    this.bookFilterModel.Random = false;
-
     const params = new HttpParams()
       .set('SortData', this.bookFilterModel.SortData)
       .set('Random', this.bookFilterModel.Random)
